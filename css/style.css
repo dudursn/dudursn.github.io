@@ -614,29 +614,34 @@
 		text-align: center;
 	}
 
+	.margin-skills{
+		margin-left: 10em;
+	}
+
 	#section-skills {
 		padding: 6em 0;
 	}
 
-		#section-skills .sidebar .major {
-			padding-bottom: 2em;
+	#section-skills .sidebar .major {
+		padding-bottom: 2em;
+	}
+
+		#section-skills .sidebar .major h2 {
+			font-size: 1.8em;
 		}
 
-			#section-skills .sidebar .major h2 {
-				font-size: 1.8em;
-			}
+	#section-skills .sidebar .default li {
+		border-color: #cdcdcd;
+	}
 
-		#section-skills .sidebar .default li {
-			border-color: #cdcdcd;
-		}
+	#section-skills .sidebar .default a {
+		color: #464646;
+	}
 
-		#section-skills .sidebar .default a {
-			color: #464646;
-		}
-
-		#section-skills .sidebar > :first-child {
-			margin-bottom: 3em;
-		}
+	#section-skills .sidebar > :first-child {
+		margin-bottom: 3em;
+	}
+	
 
 /* Footer */
 
